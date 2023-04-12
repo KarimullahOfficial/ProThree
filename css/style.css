@@ -21,7 +21,6 @@ body {
   min-height: 400px;
 }
 .ptext {
-  position: absolute;
   text-transform: uppercase;
   color: black;
   width: 100%;
@@ -29,7 +28,30 @@ body {
   text-align: center;
   font-size: 30px;
   letter-spacing: 8px;
+  position: absolute;
 }
+.ptext2 {
+  text-transform: uppercase;
+  color: black;
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 8px;
+  position: absolute;
+}
+.textbg2 {
+  background-color: #666;
+  padding: 20px;
+  color: white;
+}
+.dark {
+  background-color: #666;
+  color: white;
+  padding: 50px 80px;
+  text-align: center;
+}
+
 .pimag,
 .pimag1,
 .pimag2 {
@@ -37,7 +59,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.texbg {
+.textbg {
   background-color: #666;
   padding: 20px;
   color: white;
@@ -45,4 +67,10 @@ body {
 .sectionlight {
   padding: 50px 80px;
   text-align: center;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: yellowgreen;
+  color: white;
 }
