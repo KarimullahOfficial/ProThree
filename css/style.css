@@ -1,6 +1,48 @@
-h1 {
-  background-color: yellow;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
 }
-h2 {
-  background-color: yellowgreen;
+.pimag {
+  background-image: url(../image/image1.png);
+  min-height: 100%;
+}
+.pimag1 {
+  background-image: url(../image/image2.png);
+  min-height: 400px;
+}
+.pimag2 {
+  background-image: url(../image/image3.png);
+  min-height: 400px;
+}
+.ptext {
+  position: absolute;
+  text-transform: uppercase;
+  color: black;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+.pimag,
+.pimag1,
+.pimag2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texbg {
+  background-color: #666;
+  padding: 20px;
+  color: white;
+}
+.sectionlight {
+  padding: 50px 80px;
+  text-align: center;
 }
